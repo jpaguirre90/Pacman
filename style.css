@@ -1,0 +1,41 @@
+
+div.ladrillo{ 
+    width: 50px;
+    height: 50px;
+    background-color: red; 
+    display: inline-block; 
+}
+.coin {
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    background-image: url('img/moneda.gif');
+    background-size: cover;
+    display: inline-block;
+}
+.vacio {
+    width: 50px;
+    height: 50px;
+    background-color: green; 
+    display: inline-block;
+}
+.ghost {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/ghost1.png');
+    display: inline-block;
+}
+#pacman {
+    width: 50px;
+    height: 50px;
+    background-image: url('img/pacman.gif');
+    background-size: cover;
+    display: inline-block;
+}
+
+div {
+    line-height: 0px;
+}
+.left {
+    transform: rotate(180deg);
+}
