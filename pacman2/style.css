@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+div.ladrillo{
+        
+    background-color: red;
+    
+}
+div.monedas{
+    background: url('img/moneda.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+}
+
+div.pacman{
+    background: url('img/pacman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+ 
+}
